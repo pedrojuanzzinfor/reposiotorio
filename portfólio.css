@@ -1,0 +1,211 @@
+
+/*pj*/
+body{
+    background:#000;
+    margin:0;
+}
+#cabecalho {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+    background-image: url(ftpssoa.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    background-position-y: 40%;
+    padding-bottom:68px;
+}
+#subh2 {
+    margin-top:8.5em;
+    margin-bottom:0;
+    font-size:1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(120, 0, 218);
+}
+#nomeh1 {
+    margin:0;
+    font-size:5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#fff
+}
+#subesth2{
+    margin-top:0;
+    font-size:1.5em;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color:#fff;
+    margin-bottom:2em;
+
+}
+#saibamais{
+    background-color: transparent;
+    color:#fff;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right:2em;
+    padding-left:2em;
+    border-radius:10px;
+    font-size:1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing:0.25em;
+    text-decoration:none;
+    margin-bottom:9em;
+}
+#saibamais:hover{
+    border: 3px solid rgb(47, 0, 218);
+
+}
+#icone{
+    max-width:3em;
+    max-height:5em;
+}
+#sobrenos{
+    background-color:#fff;
+}
+#barrafixa{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 1em 1em;
+    width: 12em;
+    justify-content:start;
+    left: 12em;
+    height:fit-content;
+    border-radius:20px;
+}
+#pj{
+    margin:0;
+}
+#abrefecha{
+    list-style: none;
+    font-size:2em;
+    position: relative;
+
+    
+}
+#abrefecha:before{
+    content:"☰";
+    color:blueviolet;
+    font-size:1em;
+    padding-right:0.5em;
+}
+details[open] #abrefecha:before{
+    content:"X";
+}
+
+details[open] #barrafixa{
+    padding:4em;
+    transition-duration: 800ms;
+}
+#sumario{
+    padding: 2em 0em;
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    width: 1em;
+}
+#pag{
+    text-decoration: none;
+    margin-bottom:2em;
+    text-decoration:none;
+    color:#fff;
+    transition-duration: 800ms;
+    padding:0.5em;
+}
+#pag:hover{
+    color:blueviolet;
+    padding-left: 0.7em;
+    transition-duration: 800ms;
+    
+}
+/*pj fim*/
+
+#servicos{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+#servicos2{
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+
+}
+#servicos3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5em;
+   margin-left: 5em;
+   
+}
+#servicostitulo{
+    font-size: 2em; 
+    height:fit-content;
+    margin:0;
+}
+#servicosa{
+    font-size: 1.5em;
+    width: 8em;
+    height: 1em;
+    
+}
+/* fim ana luiza r.*/
+/* rodrigo*/
+#contato
+{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+}
+#headerc{
+    color:white;
+    height:1000px;
+    font-size:25px;
+    padding-left:30px;
+    gap:18px;
+}
+button{
+    font-size:25px;
+}
+#backgroundcolorwhite{
+    background-color:white;
+    height:250px;
+}
+#headername{
+}
+#pesquisa{
+    flex-direction:column;
+    background-color:gray;
+    opacity:100%;
+    min-height:44px;
+    max-width:500px;
+}
+#contact2{
+    margin-top:0%;
+}
+#contact22{
+    margin:0%;
+}
+/*fim rodrigo*/
+
+
